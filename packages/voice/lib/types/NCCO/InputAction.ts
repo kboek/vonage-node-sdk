@@ -42,4 +42,10 @@ export type InputAction = {
    * Valid values are 'GET' and 'POST'.
    */
   eventMethod?: string;
+  
+  /**
+   * Input processing mode, currently only applicable to DTMF. 
+   * Valid values are synchronous (the default) and asynchronous
+   */
+  mode?: string;
 };
